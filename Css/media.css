@@ -83,9 +83,11 @@
     .featured-img {
         padding-bottom: 2.5rem;
     }
-    .featured-img div img,
-    .featured-img div img:hover {
+    .featured-img div img,.featured-img div img:hover {
         transform: none;
+    }
+    .featured-img span {
+       left: 76%;
     }
     .btbi-button button {
         width: 35%;
@@ -243,9 +245,11 @@
     }
 
     /* Featured */
-    .featured-img div img,
-    .featured-img div img:hover {
+    .featured-img div img,.featured-img div img:hover {
         transform: none;
+    }
+    .featured-img span {
+       left: 76%;
     }
     .btbi-button button {
         width: 47%;
@@ -330,6 +334,9 @@
         display: block;
         margin: 0;
     }
+    .featured-img span {
+       left: 76%;
+    }
 }
 
 /* ================== SM ================== */
@@ -396,9 +403,11 @@
     }
 
     /* Featured */
-    .featured-img div img,
-    .featured-img div img:hover {
+    .featured-img div img,.featured-img div img:hover {
         transform: none;
+    }
+    .featured-img span {
+       left: 76%;
     }
     .btbi-button button {
         width: 47%;
