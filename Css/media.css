@@ -1,0 +1,464 @@
+/* ================== XXL ================== */
+@media screen and (min-width: 1536px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+/* ================== XL ================== */
+@media screen and (max-width: 1280px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+/* ================== LG ================== */
+@media screen and (max-width: 1024px) {
+
+    /* Navigation */
+    .nav-links,
+    .navbar .container > button {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    /* Base */
+    html {
+        font-size: 13px;
+    }
+    .navbar {
+        width: 80%;
+    }
+
+    /* Background Circles */
+    .c-bg1 {
+        transform: rotate(15deg);
+        top: 5%;
+        left: 15%;
+    }
+    .c-bg2 {
+        transform: rotate(45deg);
+        top: 10%;
+        left: 70%;
+    }
+    .c-bg3 {
+        transform: rotate(30deg);
+        bottom: 5%;
+        left: 50%;
+    }
+    .c-bg4 {
+        transform: rotate(45deg);
+        top: 10%;
+        left: 75%;
+    }
+
+    /* Header */
+    .trend-now {
+        top: 40%;
+    }
+    .header-bth {
+        padding-top: 5px;
+        font-size: 72px;
+    }
+
+    /* Brutal Section */
+    .brutal-thoughts-bold-ideas .container {
+        flex-direction: column;
+    }
+    .brutal-thoughts-bold-ideas .container p {
+        width: fit-content;
+    }
+
+    .none {
+        display: none;
+    }
+
+    /* Featured */
+    .featured-img {
+        padding-bottom: 40px;
+    }
+    .featured-img div img,
+    .featured-img div img:hover {
+        transform: none;
+    }
+    .btbi-button button {
+        width: 35%;
+    }
+
+    /* Fresh Content */
+    .fresh-content {
+        display: none;
+    }
+
+    /* Articles */
+    .cards {
+        position: static;
+        top: auto;
+        align-self: auto;
+    }
+    .latest-articles .container {
+        display: block;
+    }
+    .articles {
+        width: 100%;
+    }
+    .article {
+        width: 93%;
+        display: block;
+    }
+
+    /* Info User */
+    .info-user {
+        display: block;
+    }
+    .info-user span {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    .bab {
+        margin-right: 0;
+    }
+
+    /* Authors */
+    .authors {
+        display: block;
+    }
+    .author {
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 1.25rem;
+    }
+
+    /* Rebellion */
+    .rebellion {
+        display: block;
+    }
+
+    /* Become Part Section */
+    .become_part_of_something_bigger h4 {
+        font-size: 36px;
+        margin: 0;
+    }
+    .become_part_of_something_bigger p {
+        width: 90%;
+    }
+
+    /* Icons */
+    .true,
+    .disc,
+    .star,
+    .pen {
+        font-size: 18px;
+    }
+
+    /* What Rebels */
+    .what_rebels_are_saying {
+        width: fit-content;
+    }
+
+    /* Footer */
+    .footer .container {
+        display: block;
+    }
+    .category-list {
+        display: inline-block;
+    }
+    .newsletter {
+        display: inline-block;
+        margin-left: 15%;
+    }
+    form input,
+    form button {
+        width: 100%;
+    }
+    .site-footer .container {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* ================== MD ================== */
+@media screen and (max-width: 768px) {
+
+    /* Navigation */
+    .nav-links,
+    .navbar .container > button {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    /* Base */
+    html {
+        font-size: 13px;
+    }
+    .navbar {
+        width: 80%;
+    }
+
+    /* Background Circles */
+    .c-bg1 {
+        transform: rotate(15deg);
+        top: 10%;
+        left: 15%;
+    }
+    .c-bg2 {
+        transform: rotate(45deg);
+        top: 10%;
+        left: 50%;
+    }
+    .c-bg3 {
+        transform: rotate(30deg);
+        bottom: 5%;
+        left: 50%;
+    }
+
+    /* Header */
+    .trend-now {
+        top: 50px;
+    }
+    .header-bth {
+        padding-top: 20px;
+        font-size: 3.5rem;
+    }
+
+    /* Brutal Section */
+    .brutal-thoughts-bold-ideas .container {
+        flex-direction: column;
+    }
+    .brutal-thoughts-bold-ideas .container p {
+        width: 90%;
+    }
+
+    /* Featured */
+    .featured-img div img,
+    .featured-img div img:hover {
+        transform: none;
+    }
+    .btbi-button button {
+        width: 47%;
+    }
+
+    /* Fresh Content */
+    .fresh-content {
+        display: none;
+    }
+
+    /* Articles */
+    .cards {
+        position: static;
+        top: auto;
+        align-self: auto;
+    }
+    .latest-articles .container {
+        display: block;
+    }
+    .articles {
+        width: 90%;
+    }
+    .article {
+        width: 90%;
+        display: block;
+    }
+
+    /* Info User */
+    .info-user {
+        display: block;
+    }
+    .info-user span {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    .bab {
+        margin-right: 0;
+    }
+
+    /* Authors */
+    .authors {
+        display: block;
+    }
+    .author {
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 1.25rem;
+    }
+
+    /* Rebellion */
+    .rebellion {
+        display: block;
+    }
+
+    /* Become Part Section */
+    .become_part_of_something_bigger h4 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .become_part_of_something_bigger p {
+        width: 90%;
+    }
+
+    /* Icons */
+    .true,.disc,.star,.pen {
+        font-size: 10.5px;
+    }
+
+    /* What Rebels */
+    .what_rebels_are_saying {
+        width: fit-content;
+    }
+
+    /* Footer */
+    .footer .container {
+        display: block;
+    }
+    .category-list {
+        display: block;
+    }
+    .newsletter {
+        display: block;
+        margin: 0;
+    }
+}
+
+/* ================== SM ================== */
+@media screen and (max-width: 640px) {
+
+    /* Navigation */
+    .nav-links,
+    .navbar .container > button {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    /* Base */
+    html {
+        font-size: 13px;
+    }
+    .navbar {
+        width: 80%;
+    }
+
+    /* Background Circles */
+    .c-bg1 {
+        transform: rotate(15deg);
+        top: 10%;
+        left: 15%;
+    }
+    .c-bg2 {
+        transform: rotate(45deg);
+        top: 10%;
+        left: 70%;
+    }
+    .c-bg3 {
+        transform: rotate(30deg);
+        bottom: 5%;
+        left: 50%;
+    }
+
+    /* Header */
+    .trend-now {
+        top: 50px;
+    }
+    .header-bth {
+        padding-top: 20px;
+        font-size: 3.5rem;
+    }
+
+    /* Brutal Section */
+    .brutal-thoughts-bold-ideas .container {
+        flex-direction: column;
+    }
+    .brutal-thoughts-bold-ideas .container p {
+        width: 90%;
+    }
+
+    /* Featured */
+    .featured-img div img,
+    .featured-img div img:hover {
+        transform: none;
+    }
+    .btbi-button button {
+        width: 47%;
+    }
+
+    /* Fresh Content */
+    .fresh-content {
+        display: none;
+    }
+
+    /* Articles */
+    .cards {
+        position: static;
+        top: auto;
+        align-self: auto;
+    }
+    .latest-articles .container {
+        display: block;
+    }
+    .articles {
+        width: 90%;
+    }
+    .article {
+        width: 90%;
+        display: block;
+    }
+
+    /* Info User */
+    .info-user {
+        display: block;
+    }
+    .info-user span {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    .bab {
+        margin-right: 0;
+    }
+
+    /* Authors */
+    .authors {
+        display: block;
+    }
+    .author {
+        width: fit-content;
+        height: fit-content;
+        margin-bottom: 1.25rem;
+    }
+
+    /* Rebellion */
+    .rebellion {
+        display: block;
+    }
+
+    /* Become Part Section */
+    .become_part_of_something_bigger h4 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .become_part_of_something_bigger p {
+        width: 90%;
+    }
+
+    /* Icons */
+    .true,
+    .disc,
+    .star,
+    .pen {
+        font-size: 10.5px;
+    }
+
+    /* What Rebels */
+    .what_rebels_are_saying {
+        width: fit-content;
+    }
+
+    /* Footer */
+    .footer .container {
+        display: block;
+    }
+}
