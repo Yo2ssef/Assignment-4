@@ -53,6 +53,10 @@
         top: 10%;
         left: 65%;
     }
+     .c-bg5 {
+       top: 78%;
+       left: 35%;
+    }
 
     /* Header */
     .trend-now {
@@ -217,7 +221,10 @@
         top: 10%;
         left: 60%;
     }
-
+    .c-bg5 {
+       top: 78%;
+       left: 50%;
+    }
     /* Header */
     .trend-now {
         top: 45%;
@@ -365,6 +372,10 @@
         transform: rotate(45deg);
         top: 10%;
         left: 55%;
+    }
+     .c-bg5 {
+       top: 78%;
+       left: 35%;
     }
 
     /* Header */
